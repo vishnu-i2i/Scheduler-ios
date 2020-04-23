@@ -7,39 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27229873244F3361004CB3F7 /* UnitedStates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27229870244F3360004CB3F7 /* UnitedStates.jpg */; };
-		27229874244F3361004CB3F7 /* UnitedKingdom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27229871244F3361004CB3F7 /* UnitedKingdom.jpg */; };
-		27229875244F3361004CB3F7 /* Greece.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27229872244F3361004CB3F7 /* Greece.jpg */; };
-		275EC725244DEBFE0090D391 /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275EC724244DEBFE0090D391 /* Tour.swift */; };
-		27FD64E72449D7860046341C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FD64E62449D7860046341C /* AppDelegate.swift */; };
-		27FD64E92449D7860046341C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FD64E82449D7860046341C /* SceneDelegate.swift */; };
-		27FD64EB2449D7860046341C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FD64EA2449D7860046341C /* FirstViewController.swift */; };
-		27FD64ED2449D7860046341C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FD64EC2449D7860046341C /* SecondViewController.swift */; };
-		27FD64F02449D7860046341C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FD64EE2449D7860046341C /* Main.storyboard */; };
-		27FD64F22449D7880046341C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FD64F12449D7880046341C /* Assets.xcassets */; };
-		27FD64F52449D7880046341C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FD64F32449D7880046341C /* LaunchScreen.storyboard */; };
-		27FD64FD244A05250046341C /* ToursTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FD64FC244A05250046341C /* ToursTableViewCell.swift */; };
+		27BEE30C24508C7700568D5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEE30B24508C7700568D5B /* AppDelegate.swift */; };
+		27BEE30E24508C7700568D5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEE30D24508C7700568D5B /* SceneDelegate.swift */; };
+		27BEE31024508C7700568D5B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEE30F24508C7700568D5B /* FirstViewController.swift */; };
+		27BEE31224508C7700568D5B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEE31124508C7700568D5B /* SecondViewController.swift */; };
+		27BEE31524508C7700568D5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BEE31324508C7700568D5B /* Main.storyboard */; };
+		27BEE31724508C7900568D5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BEE31624508C7900568D5B /* Assets.xcassets */; };
+		27BEE31A24508C7900568D5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BEE31824508C7900568D5B /* LaunchScreen.storyboard */; };
+		27BEE3232450A90A00568D5B /* ToursTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEE3212450A90A00568D5B /* ToursTableViewCell.swift */; };
+		27BEE3242450A90A00568D5B /* ToursTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BEE3222450A90A00568D5B /* ToursTableViewCell.xib */; };
+		27BEE3262450A9FF00568D5B /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEE3252450A9FF00568D5B /* Tour.swift */; };
+		27BEE32A2450AF6500568D5B /* Greece.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27BEE3272450AF6500568D5B /* Greece.jpg */; };
+		27BEE32B2450AF6500568D5B /* UnitedKingdom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27BEE3282450AF6500568D5B /* UnitedKingdom.jpg */; };
+		27BEE32C2450AF6500568D5B /* UnitedStates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27BEE3292450AF6500568D5B /* UnitedStates.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27229870244F3360004CB3F7 /* UnitedStates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UnitedStates.jpg; sourceTree = "<group>"; };
-		27229871244F3361004CB3F7 /* UnitedKingdom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UnitedKingdom.jpg; sourceTree = "<group>"; };
-		27229872244F3361004CB3F7 /* Greece.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Greece.jpg; sourceTree = "<group>"; };
-		275EC724244DEBFE0090D391 /* Tour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
-		27FD64E32449D7860046341C /* TravelAppPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelAppPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		27FD64E62449D7860046341C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27FD64E82449D7860046341C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27FD64EA2449D7860046341C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		27FD64EC2449D7860046341C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		27FD64EF2449D7860046341C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		27FD64F12449D7880046341C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		27FD64F42449D7880046341C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		27FD64F62449D7880046341C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27FD64FC244A05250046341C /* ToursTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToursTableViewCell.swift; sourceTree = "<group>"; };
+		27BEE30824508C7700568D5B /* TravelAppPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelAppPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BEE30B24508C7700568D5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27BEE30D24508C7700568D5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		27BEE30F24508C7700568D5B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		27BEE31124508C7700568D5B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		27BEE31424508C7700568D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27BEE31624508C7900568D5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27BEE31924508C7900568D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27BEE31B24508C7900568D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BEE3212450A90A00568D5B /* ToursTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToursTableViewCell.swift; sourceTree = "<group>"; };
+		27BEE3222450A90A00568D5B /* ToursTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToursTableViewCell.xib; sourceTree = "<group>"; };
+		27BEE3252450A9FF00568D5B /* Tour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
+		27BEE3272450AF6500568D5B /* Greece.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Greece.jpg; sourceTree = "<group>"; };
+		27BEE3282450AF6500568D5B /* UnitedKingdom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UnitedKingdom.jpg; sourceTree = "<group>"; };
+		27BEE3292450AF6500568D5B /* UnitedStates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UnitedStates.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		27FD64E02449D7860046341C /* Frameworks */ = {
+		27BEE30524508C7700568D5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,38 +51,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27FD64DA2449D7860046341C = {
+		27BEE2FF24508C7700568D5B = {
 			isa = PBXGroup;
 			children = (
-				27FD64E52449D7860046341C /* TravelAppPractice */,
-				27FD64E42449D7860046341C /* Products */,
+				27BEE30A24508C7700568D5B /* TravelAppPractice */,
+				27BEE30924508C7700568D5B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		27FD64E42449D7860046341C /* Products */ = {
+		27BEE30924508C7700568D5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27FD64E32449D7860046341C /* TravelAppPractice.app */,
+				27BEE30824508C7700568D5B /* TravelAppPractice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		27FD64E52449D7860046341C /* TravelAppPractice */ = {
+		27BEE30A24508C7700568D5B /* TravelAppPractice */ = {
 			isa = PBXGroup;
 			children = (
-				27FD64E62449D7860046341C /* AppDelegate.swift */,
-				27FD64E82449D7860046341C /* SceneDelegate.swift */,
-				27FD64EA2449D7860046341C /* FirstViewController.swift */,
-				27229872244F3361004CB3F7 /* Greece.jpg */,
-				27229871244F3361004CB3F7 /* UnitedKingdom.jpg */,
-				27229870244F3360004CB3F7 /* UnitedStates.jpg */,
-				27FD64EC2449D7860046341C /* SecondViewController.swift */,
-				27FD64EE2449D7860046341C /* Main.storyboard */,
-				275EC724244DEBFE0090D391 /* Tour.swift */,
-				27FD64FC244A05250046341C /* ToursTableViewCell.swift */,
-				27FD64F12449D7880046341C /* Assets.xcassets */,
-				27FD64F32449D7880046341C /* LaunchScreen.storyboard */,
-				27FD64F62449D7880046341C /* Info.plist */,
+				27BEE30B24508C7700568D5B /* AppDelegate.swift */,
+				27BEE30D24508C7700568D5B /* SceneDelegate.swift */,
+				27BEE30F24508C7700568D5B /* FirstViewController.swift */,
+				27BEE3272450AF6500568D5B /* Greece.jpg */,
+				27BEE3282450AF6500568D5B /* UnitedKingdom.jpg */,
+				27BEE3292450AF6500568D5B /* UnitedStates.jpg */,
+				27BEE3252450A9FF00568D5B /* Tour.swift */,
+				27BEE31124508C7700568D5B /* SecondViewController.swift */,
+				27BEE31324508C7700568D5B /* Main.storyboard */,
+				27BEE3212450A90A00568D5B /* ToursTableViewCell.swift */,
+				27BEE3222450A90A00568D5B /* ToursTableViewCell.xib */,
+				27BEE31624508C7900568D5B /* Assets.xcassets */,
+				27BEE31824508C7900568D5B /* LaunchScreen.storyboard */,
+				27BEE31B24508C7900568D5B /* Info.plist */,
 			);
 			path = TravelAppPractice;
 			sourceTree = "<group>";
@@ -88,13 +91,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		27FD64E22449D7860046341C /* TravelAppPractice */ = {
+		27BEE30724508C7700568D5B /* TravelAppPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27FD64F92449D7880046341C /* Build configuration list for PBXNativeTarget "TravelAppPractice" */;
+			buildConfigurationList = 27BEE31E24508C7900568D5B /* Build configuration list for PBXNativeTarget "TravelAppPractice" */;
 			buildPhases = (
-				27FD64DF2449D7860046341C /* Sources */,
-				27FD64E02449D7860046341C /* Frameworks */,
-				27FD64E12449D7860046341C /* Resources */,
+				27BEE30424508C7700568D5B /* Sources */,
+				27BEE30524508C7700568D5B /* Frameworks */,
+				27BEE30624508C7700568D5B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -102,25 +105,25 @@
 			);
 			name = TravelAppPractice;
 			productName = TravelAppPractice;
-			productReference = 27FD64E32449D7860046341C /* TravelAppPractice.app */;
+			productReference = 27BEE30824508C7700568D5B /* TravelAppPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		27FD64DB2449D7860046341C /* Project object */ = {
+		27BEE30024508C7700568D5B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = ideas2it;
 				TargetAttributes = {
-					27FD64E22449D7860046341C = {
+					27BEE30724508C7700568D5B = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 27FD64DE2449D7860046341C /* Build configuration list for PBXProject "TravelAppPractice" */;
+			buildConfigurationList = 27BEE30324508C7700568D5B /* Build configuration list for PBXProject "TravelAppPractice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,61 +131,62 @@
 				en,
 				Base,
 			);
-			mainGroup = 27FD64DA2449D7860046341C;
-			productRefGroup = 27FD64E42449D7860046341C /* Products */;
+			mainGroup = 27BEE2FF24508C7700568D5B;
+			productRefGroup = 27BEE30924508C7700568D5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27FD64E22449D7860046341C /* TravelAppPractice */,
+				27BEE30724508C7700568D5B /* TravelAppPractice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		27FD64E12449D7860046341C /* Resources */ = {
+		27BEE30624508C7700568D5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27229875244F3361004CB3F7 /* Greece.jpg in Resources */,
-				27229873244F3361004CB3F7 /* UnitedStates.jpg in Resources */,
-				27FD64F52449D7880046341C /* LaunchScreen.storyboard in Resources */,
-				27FD64F22449D7880046341C /* Assets.xcassets in Resources */,
-				27FD64F02449D7860046341C /* Main.storyboard in Resources */,
-				27229874244F3361004CB3F7 /* UnitedKingdom.jpg in Resources */,
+				27BEE31A24508C7900568D5B /* LaunchScreen.storyboard in Resources */,
+				27BEE31724508C7900568D5B /* Assets.xcassets in Resources */,
+				27BEE32B2450AF6500568D5B /* UnitedKingdom.jpg in Resources */,
+				27BEE32C2450AF6500568D5B /* UnitedStates.jpg in Resources */,
+				27BEE31524508C7700568D5B /* Main.storyboard in Resources */,
+				27BEE32A2450AF6500568D5B /* Greece.jpg in Resources */,
+				27BEE3242450A90A00568D5B /* ToursTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		27FD64DF2449D7860046341C /* Sources */ = {
+		27BEE30424508C7700568D5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27FD64ED2449D7860046341C /* SecondViewController.swift in Sources */,
-				27FD64EB2449D7860046341C /* FirstViewController.swift in Sources */,
-				27FD64E72449D7860046341C /* AppDelegate.swift in Sources */,
-				275EC725244DEBFE0090D391 /* Tour.swift in Sources */,
-				27FD64FD244A05250046341C /* ToursTableViewCell.swift in Sources */,
-				27FD64E92449D7860046341C /* SceneDelegate.swift in Sources */,
+				27BEE31224508C7700568D5B /* SecondViewController.swift in Sources */,
+				27BEE31024508C7700568D5B /* FirstViewController.swift in Sources */,
+				27BEE30C24508C7700568D5B /* AppDelegate.swift in Sources */,
+				27BEE3262450A9FF00568D5B /* Tour.swift in Sources */,
+				27BEE3232450A90A00568D5B /* ToursTableViewCell.swift in Sources */,
+				27BEE30E24508C7700568D5B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		27FD64EE2449D7860046341C /* Main.storyboard */ = {
+		27BEE31324508C7700568D5B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				27FD64EF2449D7860046341C /* Base */,
+				27BEE31424508C7700568D5B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		27FD64F32449D7880046341C /* LaunchScreen.storyboard */ = {
+		27BEE31824508C7900568D5B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				27FD64F42449D7880046341C /* Base */,
+				27BEE31924508C7900568D5B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -190,7 +194,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		27FD64F72449D7880046341C /* Debug */ = {
+		27BEE31C24508C7900568D5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		27FD64F82449D7880046341C /* Release */ = {
+		27BEE31D24508C7900568D5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +308,7 @@
 			};
 			name = Release;
 		};
-		27FD64FA2449D7880046341C /* Debug */ = {
+		27BEE31F24508C7900568D5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -321,7 +325,7 @@
 			};
 			name = Debug;
 		};
-		27FD64FB2449D7880046341C /* Release */ = {
+		27BEE32024508C7900568D5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -341,25 +345,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27FD64DE2449D7860046341C /* Build configuration list for PBXProject "TravelAppPractice" */ = {
+		27BEE30324508C7700568D5B /* Build configuration list for PBXProject "TravelAppPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27FD64F72449D7880046341C /* Debug */,
-				27FD64F82449D7880046341C /* Release */,
+				27BEE31C24508C7900568D5B /* Debug */,
+				27BEE31D24508C7900568D5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27FD64F92449D7880046341C /* Build configuration list for PBXNativeTarget "TravelAppPractice" */ = {
+		27BEE31E24508C7900568D5B /* Build configuration list for PBXNativeTarget "TravelAppPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27FD64FA2449D7880046341C /* Debug */,
-				27FD64FB2449D7880046341C /* Release */,
+				27BEE31F24508C7900568D5B /* Debug */,
+				27BEE32024508C7900568D5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 27FD64DB2449D7860046341C /* Project object */;
+	rootObject = 27BEE30024508C7700568D5B /* Project object */;
 }
